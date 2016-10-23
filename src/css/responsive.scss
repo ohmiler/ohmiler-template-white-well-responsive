@@ -1,0 +1,244 @@
+@media screen and (max-width: 768px) {
+	.wrapper {
+		width: 100%;
+		height: auto;
+
+		.container {
+			width: 100%;
+			height: auto;
+
+			.logo {
+			    margin: 20px auto;
+			    text-align: center;
+			    width: 100%;
+
+				ul.menu {
+					float: none;
+					margin: 0 auto;
+					li {
+						margin: 30px auto;
+						float: none;
+					}
+				} // ul.menu
+				#searchBox {
+					top: 375px;
+
+				}
+			} // .logo
+		}
+	} // .wrapper
+
+	.container {
+		width: 100%;
+		.content-area {
+			text-align: center;
+			width: 100%;
+
+			.hot-article {
+				width: 100%;
+				float: none;
+
+				h1 {
+					img {
+						text-align: center;
+						margin: 0;
+					}
+				}
+
+				.hot-post-article {
+					margin: auto;
+					margin-top: 20px;
+					margin-bottom: 20px;
+					display: block;
+				} // .hot-post-article
+			} // .hot-article
+
+			.advertise {	
+				display: none;
+				margin: 0;
+				float: none;
+
+				.post-advertise {
+					margin: auto;
+					margin-top: 20px;
+					margin-bottom: 20px;
+					display: block;
+				} // .post-advertise
+			} // .advertise
+		} // .content-area
+
+		.latest-post {
+			text-align: center;
+			float: none;
+
+			.latest-post-post {
+				position: relative;
+				left: 5.8%;
+			} // .latest-post-post
+		} // .latest-post
+
+		.latest-post-text {
+			text-align: center;
+			left: 27%;
+			display: block;
+		} // .latest-post-text
+	} // .container
+} // @media screen and (max-width: 768px)
+
+@media screen and (max-width: 480px) {
+	.container {
+		width: 100%;
+		.content-area {
+			text-align: center;
+			width: 100%;
+
+			.hot-article {
+				width: 100%;
+				float: none;
+
+				h1 {
+					img {
+						text-align: center;
+						margin: 0;
+					}
+				}
+
+				.hot-post-article {
+					width: 95%;
+					margin-top: 20px;
+					margin-bottom: 20px;
+					display: block;
+				} // .hot-post-article
+			} // .hot-article
+
+			// .advertise {	
+			// 	display: none;
+			// 	margin: 0;
+			// 	float: none;
+
+			// 	.post-advertise {
+			// 		margin: auto;
+			// 		margin-top: 20px;
+			// 		margin-bottom: 20px;
+			// 		display: block;
+			// 	} // .post-advertise
+			// } // .advertise
+		} // .content-area
+
+		.latest-post {
+			width: 100%;
+			float: none;
+			text-align: center;
+
+			.latest-post-post {
+				width: 88%;
+				float: none;
+				position: relative;
+				left: 5.8%;
+			} // .latest-post-post
+		} // .latest-post
+
+		.latest-post-text {
+			text-align: center;
+			left: 15%;
+			display: block;
+
+		} // .latest-post-text
+	} // .container
+
+	.footer {
+		text-align: center;
+		width: 100%;
+		height: auto; 
+
+		p.left {
+			float: none;
+		}
+		p.right {
+			float: none;
+		}
+	} // .footer
+} // @media screen and (max-width: 768px)
+
+@media screen and (max-width: 375px) {
+	.container {
+		width: 100%;
+		.content-area {
+			text-align: center;
+			width: 100%;
+
+			.hot-article {
+				width: 100%;
+				float: none;
+
+				h1 {
+					img {
+						text-align: center;
+						margin: 0;
+					}
+				}
+
+				.hot-post-article {
+					width: 95%;
+					margin-top: 20px;
+					margin-bottom: 20px;
+					display: block;
+				} // .hot-post-article
+			} // .hot-article
+
+			// .advertise {	
+			// 	display: none;
+			// 	margin: 0;
+			// 	float: none;
+
+			// 	.post-advertise {
+			// 		margin: auto;
+			// 		margin-top: 20px;
+			// 		margin-bottom: 20px;
+			// 		display: block;
+			// 	} // .post-advertise
+			// } // .advertise
+		} // .content-area
+
+		.latest-post {
+			width: 100%;
+			float: none;
+			text-align: center;
+
+			.latest-post-post {
+				width: 88%;
+				float: none;
+				position: relative;
+				left: 5.8%;
+			} // .latest-post-post
+		} // .latest-post
+
+		.latest-post-text {
+			text-align: center;
+			left: 4%;
+			display: block;
+			
+
+			.tags  {
+				ul {
+					position: relative;
+					left: 15px;
+				}
+			}
+		} // .latest-post-text
+
+	} // .container
+
+	.footer {
+		text-align: center;
+		width: 100%;
+		height: auto; 
+
+		p.left {
+			float: none;
+		}
+		p.right {
+			float: none;
+		}
+	} // .footer
+} // // @media screen and (max-width: 375px)
